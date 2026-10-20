@@ -1,0 +1,192 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Usuário Demo",
+      "email": "demo@uny.com",
+      "senha": "123456"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Echo Dot 8ª Geração",
+      "categoria": "Smart Speaker",
+      "marca": "Amazon",
+      "preco": 700.99,
+      "detalhes": "Smart speaker com Alexa, som mais potente e graves aprimorados. Controle sua casa inteligente, ouça música e faça perguntas usando apenas a voz.",
+      "imagem": "https://picsum.photos/seed/echodot/400/400"
+    },
+    {
+      "id": 2,
+      "nome": "Echo Pop",
+      "categoria": "Smart Speaker",
+      "marca": "Amazon",
+      "preco": 349.9,
+      "detalhes": "Smart speaker compacto com Alexa e som envolvente. Ideal para quartos e ambientes pequenos, com design moderno e conexão Wi-Fi e Bluetooth.",
+      "imagem": "https://picsum.photos/seed/echopop/400/400"
+    },
+    {
+      "id": 3,
+      "nome": "Kindle 16 GB",
+      "categoria": "Leitor Digital",
+      "marca": "Amazon",
+      "preco": 599.9,
+      "detalhes": "Leitor digital com 16 GB de armazenamento, tela antirreflexo de 6 polegadas e luz frontal ajustável. Bateria que dura semanas com uma única carga.",
+      "imagem": "https://picsum.photos/seed/kindle/400/400"
+    },
+    {
+      "id": 4,
+      "nome": "Fone Bluetooth",
+      "categoria": "Áudio",
+      "marca": "JBL",
+      "preco": 249.9,
+      "detalhes": "Fone de ouvido sem fio com conexão Bluetooth 5.3, graves reforçados, microfone integrado para chamadas e até 30 horas de bateria.",
+      "imagem": "https://picsum.photos/seed/fonebluetooth/400/400"
+    },
+    {
+      "id": 5,
+      "nome": "Smartphone Galaxy",
+      "categoria": "Celular",
+      "marca": "Samsung",
+      "preco": 2199.9,
+      "detalhes": "Smartphone com tela AMOLED de 6,6 polegadas, câmera tripla de 50 MP, 128 GB de armazenamento e bateria de 5000 mAh com carregamento rápido.",
+      "imagem": "https://picsum.photos/seed/galaxyphone/400/400"
+    },
+    {
+      "id": 6,
+      "nome": "iPhone 16",
+      "categoria": "Celular",
+      "marca": "Apple",
+      "preco": 4299.9,
+      "detalhes": "iPhone com chip A18, tela Super Retina XDR de 6,1 polegadas, sistema de câmera dupla de 48 MP e botão de Ação personalizável.",
+      "imagem": "https://picsum.photos/seed/iphone16/400/400"
+    },
+    {
+      "id": 7,
+      "nome": "Tablet Galaxy Tab",
+      "categoria": "Tablet",
+      "marca": "Samsung",
+      "preco": 1499.9,
+      "detalhes": "Tablet com tela de 11 polegadas, 128 GB de armazenamento, alto-falantes quádruplos e bateria de longa duração para estudo e entretenimento.",
+      "imagem": "https://picsum.photos/seed/tabletgalaxy/400/400"
+    },
+    {
+      "id": 8,
+      "nome": "Smart TV 50 polegadas",
+      "categoria": "Televisão",
+      "marca": "LG",
+      "preco": 2299.9,
+      "detalhes": "Smart TV 4K UHD de 50 polegadas com HDR, sistema operacional webOS, comando de voz e acesso aos principais aplicativos de streaming.",
+      "imagem": "https://picsum.photos/seed/smarttv50/400/400"
+    },
+    {
+      "id": 9,
+      "nome": "Notebook IdeaPad",
+      "categoria": "Computador",
+      "marca": "Lenovo",
+      "preco": 2899.9,
+      "detalhes": "Notebook com processador Intel Core i5, 8 GB de RAM, SSD de 512 GB e tela Full HD de 15,6 polegadas. Leve e ideal para trabalho e estudos.",
+      "imagem": "https://picsum.photos/seed/notebook/400/400"
+    },
+    {
+      "id": 10,
+      "nome": "Mouse sem Fio",
+      "categoria": "Periféricos",
+      "marca": "Logitech",
+      "preco": 89.9,
+      "detalhes": "Mouse sem fio com receptor USB, sensor óptico preciso de 1000 DPI, design ambidestro e pilha com duração de até 12 meses.",
+      "imagem": "https://picsum.photos/seed/mousewireless/400/400"
+    },
+    {
+      "id": 11,
+      "nome": "Teclado Mecânico",
+      "categoria": "Periféricos",
+      "marca": "Redragon",
+      "preco": 199.9,
+      "detalhes": "Teclado mecânico com switches outemu blue, iluminação RGB personalizável, teclas anti-ghosting e estrutura reforçada para jogos.",
+      "imagem": "https://picsum.photos/seed/tecladomecanico/400/400"
+    },
+    {
+      "id": 12,
+      "nome": "Smartwatch",
+      "categoria": "Relógio Inteligente",
+      "marca": "Xiaomi",
+      "preco": 299.9,
+      "detalhes": "Smartwatch com tela AMOLED, monitoramento de frequência cardíaca, oxigenação e sono, mais de 100 modos esportivos e resistência à água.",
+      "imagem": "https://picsum.photos/seed/smartwatch/400/400"
+    },
+    {
+      "id": 13,
+      "nome": "Carregador USB-C",
+      "categoria": "Acessórios",
+      "marca": "Anker",
+      "preco": 119.9,
+      "detalhes": "Carregador USB-C de 30 W com tecnologia de carregamento rápido, compatível com smartphones, tablets e notebooks. Compacto e seguro.",
+      "imagem": "https://picsum.photos/seed/carregador/400/400"
+    },
+    {
+      "id": 14,
+      "nome": "Power Bank 20000 mAh",
+      "categoria": "Acessórios",
+      "marca": "Xiaomi",
+      "preco": 159.9,
+      "detalhes": "Power bank de 20000 mAh com duas saídas USB-A e uma USB-C, carregamento rápido de 22,5 W e proteção contra superaquecimento.",
+      "imagem": "https://picsum.photos/seed/powerbank/400/400"
+    },
+    {
+      "id": 15,
+      "nome": "Câmera Wi-Fi",
+      "categoria": "Segurança",
+      "marca": "TP-Link",
+      "preco": 229.9,
+      "detalhes": "Câmera de segurança Wi-Fi Full HD com visão noturna, detecção de movimento, áudio bidirecional e acesso pelo aplicativo no celular.",
+      "imagem": "https://picsum.photos/seed/camerawifi/400/400"
+    },
+    {
+      "id": 16,
+      "nome": "Roteador Wi-Fi 6",
+      "categoria": "Rede",
+      "marca": "TP-Link",
+      "preco": 399.9,
+      "detalhes": "Roteador Wi-Fi 6 dual band com velocidade de até 1,5 Gbps, quatro antenas de alto ganho e suporte a vários dispositivos ao mesmo tempo.",
+      "imagem": "https://picsum.photos/seed/roteador/400/400"
+    },
+    {
+      "id": 17,
+      "nome": "Robô Aspirador",
+      "categoria": "Eletrodomésticos",
+      "marca": "Xiaomi",
+      "preco": 1299.9,
+      "detalhes": "Robô aspirador com mapeamento a laser, função de passar pano, sucção de 4000 Pa e controle pelo aplicativo ou por comando de voz.",
+      "imagem": "https://picsum.photos/seed/roboaspirador/400/400"
+    },
+    {
+      "id": 18,
+      "nome": "Caixa de Som Bluetooth",
+      "categoria": "Áudio",
+      "marca": "JBL",
+      "preco": 499.9,
+      "detalhes": "Caixa de som Bluetooth portátil com som potente, à prova d’água (IP67) e bateria de até 20 horas. Ideal para levar a qualquer lugar.",
+      "imagem": "https://picsum.photos/seed/caixadesom/400/400"
+    },
+    {
+      "id": 19,
+      "nome": "Controle Gamer",
+      "categoria": "Games",
+      "marca": "Sony",
+      "preco": 349.9,
+      "detalhes": "Controle sem fio com feedback háptico, gatilhos adaptáveis, microfone embutido e bateria recarregável. Pegada confortável para longas partidas.",
+      "imagem": "https://picsum.photos/seed/controle gamer/400/400"
+    },
+    {
+      "id": 20,
+      "nome": "Monitor 24 polegadas",
+      "categoria": "Informática",
+      "marca": "AOC",
+      "preco": 799.9,
+      "detalhes": "Monitor de 24 polegadas Full HD com painel IPS, taxa de atualização de 75 Hz, bordas finas e entradas HDMI e VGA.",
+      "imagem": "https://picsum.photos/seed/monitor24/400/400"
+    }
+  ]
+}
