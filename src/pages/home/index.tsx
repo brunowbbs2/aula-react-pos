@@ -1,5 +1,5 @@
 import "./styles.css"
-import axios from "axios";
+import {api} from "../../services/api"
 
 import Container from "../../templates/container"
 import Product from "../../components/product"
@@ -9,11 +9,11 @@ import type ProdutoReponse from "./types";
 
 export default function Home() {
 
-  async function getProducts() {
-    return await axios.get<ProdutoReponse[]>("http://localhost:3001/public/produtos");
+  async function getProducts() {  
+    return await api.get<ProdutoReponse[]>("/produtos");
   }
 
-   const query = useQuery({ queryKey: ['produtos'], queryFn: getProducts })
+   const query = useQuery({ queryKey: ['produtos'], queryFn: getProducts, retry:false })
 
 
   return (

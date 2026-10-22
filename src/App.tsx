@@ -1,6 +1,8 @@
 import Login from "./pages/login"
 import Home from "./pages/home"
 import Detalhes from "./pages/detalhes"
+import { ToastContainer, toast } from 'react-toastify';
+
 
 import {BrowserRouter, Routes, Route} from "react-router"
 
@@ -20,7 +22,9 @@ export default function App(){
           <Route path="/home" element={<Home/>}/>
           <Route path="/produto/:id" element={<Detalhes/>}/>
         </Routes>
+        
       </BrowserRouter>
+      <ToastContainer position="top-left" />
     </QueryClientProvider>
   )
 }
