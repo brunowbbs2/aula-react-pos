@@ -1,4 +1,4 @@
-import {createContext, useState, type ReactNode} from "react"
+import {createContext, useState, type ReactNode, useEffect} from "react"
 
 /*
     [
@@ -36,14 +36,26 @@ export const CartContext = createContext<CartProps>(null as any)
 export default function CartProvider({children}:ProviderProps){
 
 
+    useEffect(()=>{
+        const dataStorageString = localStorage.getItem("@cart")
+
+        if(dataStorageString){
+            setItemsCart(JSON.parse(dataStorageString))
+        }
+    },[])
+
+
     const [itemsCart, setItemsCart] = useState<ItemProps[]>([])
 
     function addItemToCart(item:ItemProps){    
         setItemsCart([...itemsCart, item])
+
+        localStorage.setItem("@cart", JSON.stringify([...itemsCart, item]))
     }
 
     function clearCart(){
         setItemsCart([])
+        localStorage.removeItem("@cart")
     }
 
 
